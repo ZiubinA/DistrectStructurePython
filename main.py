@@ -36,6 +36,14 @@ def calculating(array, a, pow, const, i):
                 while x > 0:
                     x -= 1
                     newArray.append(0)
+                x = a ** pow
+                while x > 0:
+                    x -= 1
+                    newArray.append(0)
+                x = a ** pow
+                while x > 0:
+                    x -= 1
+                    newArray.append(j)
             if j == 0:
                 x = a ** pow
                 while x > 0:
@@ -45,6 +53,14 @@ def calculating(array, a, pow, const, i):
                 while x > 0:
                     x -= 1
                     newArray.append(1)
+                x = a ** pow
+                while x > 0:
+                    x -= 1
+                    newArray.append(1)
+                x = a ** pow
+                while x > 0:
+                    x -= 1
+                    newArray.append(j)
             y = y * 2
     else:
         j = array[i]
